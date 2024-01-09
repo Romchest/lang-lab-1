@@ -26,7 +26,7 @@ class NewsItem:
     return self.title == other.title
 
 
-class Scrapper:
+class Scraper:
 
   def __init__(self, sitesToParse, interval):
     self.sitesToParse = sitesToParse
@@ -139,5 +139,5 @@ sitesToParse = [
     Site('https://www.foxnews.com/world', foxnewsParser)
 ]
 
-scrapper = Scrapper(sitesToParse, 60)
+scrapper = Scraper(sitesToParse, 60)
 scrapper.run()
