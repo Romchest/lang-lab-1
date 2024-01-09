@@ -2,6 +2,6 @@
 ## Lab 1 - Python
 [replit](https://replit.com/@romchestplay/lang-lab-1#main.py)
 
-Site - class defining a site for scraping (link + parser)
-NewsItem - class defining a single news (title used as uniqe identifier)
-Scraper - class for worker thread control and news printing
+- Site - class defining a site for scraping (link + parser)
+- NewsItem - class defining a single news (title used as uniqe identifier)
+- Scraper - class for worker thread control and news printing
