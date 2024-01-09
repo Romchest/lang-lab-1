@@ -5,3 +5,5 @@
 - Site - class defining a site for scraping (link + parser)
 - NewsItem - class defining a single news (title used as uniqe identifier)
 - Scraper - class for worker thread control and news printing
+
+- washingtonpostParser(), abcnewsParser(), foxnewsParser() - methods for news scraping
